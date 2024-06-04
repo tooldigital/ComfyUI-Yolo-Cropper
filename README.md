@@ -1,6 +1,6 @@
 # ComfyUI-Yolo-Cropper
 
-A very simple node to help you create image crops and masks using YoloV8.
+A very simple [ComfyUI](https://github.com/comfyanonymous/ComfyUI) node to help you create image crops and masks using YoloV8.
 
 It is usefull for creating square crops when working with controlnets, ip-adapters etc that need 1:1 ratio input like 1024x1024 for example.
 
@@ -10,8 +10,14 @@ All necessary models will be downloaded automatically at first use.
 - https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8l.pt
 - https://huggingface.co/spaces/cc1234/stashface/resolve/main/.deepface/weights/yolov8n-face.pt
 
-
 ![image](https://raw.githubusercontent.com/tooldigital/ComfyUI-Yolo-Cropper/main/img/cropper_image.png)
+
+### Install
+To install this node in addition to an existing installation of ComfyUI, you can follow the following steps:
+
+    1. goto ComfyUI/custom_nodes dir in terminal(cmd)
+    2. git clone https://github.com/tooldigital/ComfyUI-Yolo-Cropper.git
+    3. Restart ComfyUI
 
 
 ### Input
