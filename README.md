@@ -6,6 +6,8 @@ It is usefull for creating square crops when working with controlnets, ip-adapte
 
 It uses YoloV8 - [Ultralytics](https://github.com/ultralytics/ultralytics) - with COCO 80  objects for detection added with a specific feature for face detection.
 
+When multiple objects are detected, it will return the biggest bounding box.
+
 All necessary models will be downloaded automatically at first use.
 - https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8l.pt
 - https://huggingface.co/spaces/cc1234/stashface/resolve/main/.deepface/weights/yolov8n-face.pt
