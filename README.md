@@ -25,7 +25,7 @@ To install this node in addition to an existing installation of ComfyUI, you can
 ### Input
 
 - image = Any input image will do
-- object = dropdown list with COCO 80 objects, it has face as en extra.
+- object = dropdown list with COCO 80 objects, it has face as an extra.
 - padding = padding that is added to the square crop (not the orginal crop)
 
 ### Output
