@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-yolo-cropper"
+description = "A very simple and easy to use node to automaticaaly create (square) image crops and masks using YoloV8. This can be very useful when using controlnet and ip adapters"
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/tooldigital/ComfyUI-Yolo-Cropper"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Yolo-Cropper"
+Icon = ""
